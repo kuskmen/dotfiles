@@ -1,0 +1,17 @@
+set nocompatible
+filetype off
+
+set rtp+=C:\Users\kuskmen\.vim\bundle\Vundle.vim
+call vundle#begin('C:\User\kuskmen\.vim\plugins')
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'othree/xml.vim'
+
+call vundle#end()
+filetype plugin indent on
+
+" show line numbers
+set nu
+
+" set tab to be 4 spaces
+set tabstop=4
