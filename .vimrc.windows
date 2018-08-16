@@ -13,5 +13,21 @@ filetype plugin indent on
 " show line numbers
 set nu
 
+" Spaces are better than tabs
+set expandtab
+set smarttab
+
 " set tab to be 4 spaces
 set tabstop=4
+
+" Incremental search
+set incsearch
+
+" Highlight search
+set hlsearch
+
+" jj to escape in insert mode. Who writes jj anyway?
+inoremap jj <Esc>
+
+" CTRL-s to save
+nnoremap <silent> <C-s> :write<CR>

@@ -10,5 +10,24 @@ Plugin 'othree/xml.vim'
 call vundle#end()
 filetype plugin indent on
 
+" Show line numbers
 set nu
+
+" Spaces are better than tabs
+set expandtab
+set smarttab
+
+" Set tab to 4 spaces
 set tabstop=4
+
+" Highlight search
+set hlsearch
+
+" Incremental search
+set incsearch
+
+" jj to escape in insert mode. Who writes jj anyway?
+inoremap jj <Esc>
+
+" CTRL-s to save
+nnoremap <silent> <C-s> :write<CR>
