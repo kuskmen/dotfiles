@@ -1,8 +1,8 @@
 set nocompatible
 filetype off
 
-set rtp+=$HOME\.vim\bundle\Vundle.vim
-call vundle#begin('$HOME\.vim\plugins')
+set rtp+=$HOME/.vim/bundle/Vundle.vim
+call vundle#begin('$HOME/.vim/plugins')
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'othree/xml.vim'
@@ -10,14 +10,14 @@ Plugin 'othree/xml.vim'
 call vundle#end()
 filetype plugin indent on
 
-" show line numbers
+" Show line numbers
 set nu
 
 " Spaces are better than tabs
 set expandtab
 set smarttab
 
-" set tab to be 4 spaces
+" Set tab to 4 spaces
 set tabstop=4
 
 " Incremental search
