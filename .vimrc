@@ -1,5 +1,7 @@
 set nocompatible
-filetype off
+
+# OmniSharp won't work without this setting
+filetype plugin on 
 
 set rtp+=$HOME/.vim/bundle/Vundle.vim
 call vundle#begin('$HOME/.vim/plugins')
@@ -43,4 +45,5 @@ let g:OmniSharp_timeout = 5
 
 let g:OmniSharp_server_path=$HOME/.omnisharp/OmniSharp.exe 
 
-
+# Don't autoselect first omnicomplete option
+set completeopt=longest,menuone,preview
