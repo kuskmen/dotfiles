@@ -1,0 +1,16 @@
+[user]
+	email = ianislav_vasilev@abv.bg
+	name = kuskmen
+[merge]
+	guitool = kdiff3
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	trustExitCode = true
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	trustExitCode = true
+[alias]
+	up = "!git remote update -p; git merge --ff-only @{u}"
